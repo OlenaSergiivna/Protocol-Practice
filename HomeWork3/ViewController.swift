@@ -19,8 +19,6 @@ class ViewController: UIViewController {
         farm.animals.append(chick)
         farm.animals.append(pig)
         farm.animals.append(cow)
-        
-        print("farm animals: \(farm.animals)")
 
         farm.startTheDay()
         farmer.feedAnimals()
