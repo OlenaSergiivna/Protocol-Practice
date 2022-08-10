@@ -63,10 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				CEA2944528A1717C00418286 /* Models */,
-				CEA2943528A1714D00418286 /* ViewController.swift */,
+				CEA2944F28A1893A00418286 /* Controllers */,
+				CEA2943728A1714D00418286 /* Main.storyboard */,
 				CEA2943128A1714C00418286 /* AppDelegate.swift */,
 				CEA2943328A1714C00418286 /* SceneDelegate.swift */,
-				CEA2943728A1714D00418286 /* Main.storyboard */,
 				CEA2943A28A1715100418286 /* Assets.xcassets */,
 				CEA2943C28A1715100418286 /* LaunchScreen.storyboard */,
 				CEA2943F28A1715100418286 /* Info.plist */,
@@ -82,6 +82,14 @@
 				CEA2944D28A181C600418286 /* Instances.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CEA2944F28A1893A00418286 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2943528A1714D00418286 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -15,6 +15,19 @@ protocol Animal {
 }
 
 
+extension Animal {
+    
+    func wakeUp() {
+        print("Wake up")
+    }
+    
+    func askForFood() {
+        print("Ask for food")
+    }
+}
+
+
+
 
 protocol Farmer {
     
@@ -29,6 +42,33 @@ protocol Farmer {
     mutating func collectMilk(_ milk: Milk)
 
 }
+
+
+extension Farmer {
+    
+    func feedAnimals() {
+        print("Feeding animals...")
+    }
+    
+    func checkForEggs(_ chik: Chicken) -> Egg? {
+        return chik.eggsAmount.first
+    }
+    
+    mutating func collectEgg(_ egg: Egg) {
+        print("+1 egg to Food Basket")
+    }
+    
+    
+    func checkForMilk(_ cow: Cow) -> Milk? {
+       return cow.milkAmount.first
+    }
+
+    mutating func collectMilk(_ milk: Milk) {
+        print("+some milk milk to Food Basket")
+    }
+    
+}
+
 
 
 
